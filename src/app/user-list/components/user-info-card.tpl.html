@@ -1,0 +1,7 @@
+<div>
+  <img ng-click="userInfoCard.doSomeManipulation(userInfoCard.user)"
+       class="avatar"
+       ng-src="{{userInfoCard.user.avatar_url}}"
+       alt="{{userInfoCard.user.login}} avatar" />
+  <h3><a ui-sref="userProfile({username:userInfoCard.user.login})">{{userInfoCard.user.login}}</a></h3>
+</div>

@@ -1,0 +1,6 @@
+<a ui-sref="userList()">View all users...</a>
+<h1>{{userProfile.user.login}}</h1>
+<img ng-src="{{userProfile.user.avatar_url}}" class="avatar" />
+<a ui-sref="userProfile.events()">Events</a>
+<a ui-sref="userProfile.repos()">Repos</a>
+<div ui-view></div>
